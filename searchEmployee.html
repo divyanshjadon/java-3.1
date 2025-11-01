@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Search (Part B)</title>
+</head>
+<body>
+    <h2>Search Employee by ID</h2>
+    <form action="EmployeeServlet" method="get">
+        Enter Employee ID: <input type="text" name="empid">
+        <input type="submit" value="Search">
+    </form>
+    <hr>
+    <form action="EmployeeServlet" method="get">
+        <input type="hidden" name="list" value="all">
+        <input type="submit" value="Show All Employees">
+    </form>
+</body>
+</html>
